@@ -1,5 +1,6 @@
 html {
   font: 100%,
+  font-family: 'PT Serif', serif;
   font-size: 1.5rem;
 
 }
@@ -10,10 +11,21 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: sans-serif;
   color: #3f1622;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
   font-size: 1.5rem;
 }
+
+nav {
+  font-family: 'PT Sans', sans-serif;
+}
+
+nav ol li {
+  color: #3f1622;
+  list-style-type: none;
+}
+
 
 img {
   width: 100%;
@@ -28,7 +40,6 @@ main figure {
 
 main div{
   font-weight: bold;
-
 }
 
 blockquote {
@@ -40,6 +51,6 @@ blockquote cite {
   font-size: 0.8rem;
 }
 
-nav
-
-p
+ol{
+  list-style-type: lower-greek;
+}
