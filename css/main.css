@@ -2,6 +2,9 @@ html {
   font: 100%,
   font-family: 'PT Serif', serif;
   font-size: 1.5rem;
+  line-height: 1.5;
+  /* margin-right: 110px; */
+  margin: 0;
 
 }
 
@@ -17,21 +20,26 @@ h1, h2, h3, h4 {
   font-size: 1.5rem;
 }
 
-nav {
+nav ol {
   font-family: 'PT Sans', sans-serif;
-}
-
-nav ol li {
   color: #3f1622;
   list-style-type: none;
+  text-decoration: none;
 }
 
+a:link {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+}
 
 img {
   width: 100%;
   height: auto;
 }
-
 
 main figure {
   font-style: italic;
@@ -53,4 +61,40 @@ blockquote cite {
 
 ol{
   list-style-type: lower-greek;
+  margin: 1em;
+}
+
+dl dt {
+  text-align: right;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+dd {
+  margin: 0.5em;
+  line-height: 1.1em;
+}
+dd:first-child{
+  font-style: italic;
+  display: block;
+}
+
+.energy {
+  font-weight: bold;
+}
+
+.numbers {
+  text-indent: 2.5em;
+}
+
+dd span::before {
+  content: "\A";
+  white-space: pre;
+ }
+
+p source {
+  color: #8f2440;
 }
