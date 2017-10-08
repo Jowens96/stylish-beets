@@ -1,0 +1,29 @@
+html {
+  font: 100%,
+  font-size: 1.5rem;
+
+}
+
+body {
+  background-color: #c9b5ab;
+
+}
+
+h1, h2, h3, h4 {
+  font-family: sans-serif;
+  color: #3f1622;
+  font-size: 1.5rem;
+}
+
+main figure {
+  font-style: italic;
+}
+
+main div{
+  font-weight: bold;
+
+}
+
+nav
+
+p
